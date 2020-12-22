@@ -58,7 +58,9 @@ $("h1").click(function(){
   if(!started){
     started = true;
     $("h1").text("Level "+level);
-    nextSequence();
+    setTimeout(function(){
+      nextSequence();
+    }, 1000);
   }
 });
 
