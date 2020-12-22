@@ -83,7 +83,7 @@ function checkAnswer(d){
     wrongPress(userClickedPattern[d]);
     started=false;
     gamePattern=[];
-    $("h1").text("Game Over at level:"+level+", Press any key to Restart");
+    $("h1").text("Game Over at level:"+level+", Press any key (or Here) to Restart");
     level=0;
   }
 }
