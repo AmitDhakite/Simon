@@ -54,7 +54,13 @@ $(document).keypress(function(){
     nextSequence();
   }
 });
-
+$("h1").click(function(){
+  if(!started){
+    started = true;
+    $("h1").text("Level "+level);
+    nextSequence();
+  }
+});
 
 
 $(".btn").click(function(){
