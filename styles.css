@@ -56,40 +56,19 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
-@media (max-width: 600px){
+@media (max-width: 1000px){
   .btn{
-    margin: 10px;
+    margin: 10px 10px 10px 10px;
     display: inline-block;
-    height: 100px;
-    width: 100px;
-    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    border: 8px solid black;
     border-radius: 20%;
+    padding: 20px;
   }
   .container{
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 0;
-    text-align: center;
-  }
-  .row{
-    padding: 0;
-  }
-}
-@media (max-width: 450px){
-  h1{
-    size: 10px;
-  }
-  .btn{
-    margin: 10px;
-    display: inline-block;
-    height: 80px;
-    width: 80px;
-    border: 5px solid black;
-    border-radius: 20%;
-  }
-  .container{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 100px;
+     margin-right: 0;
     padding: 0;
     text-align: center;
   }
